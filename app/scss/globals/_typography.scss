@@ -9,11 +9,25 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(u.rem(28), u.rem(16) + 2vw, u.rem(40));
+  font-size: u.rem(42);
+  font-size: clamp(u.rem(40), 1.77rem + 3.64vw, u.rem(72));
+
+  // @include u.breakpoint(medium) {
+  //   font-size: u.rem(60);
+  // }
+
+  // @include u.breakpoint(large) {
+  //   font-size: u.rem(72);
+  // }
 }
 
 h2 {
-  font-size: clamp(u.rem(22), u.rem(14) + 1.5vw, u.rem(36));
+  font-size: u.rem(36);
+  font-size: clamp(u.rem(36), 1.91rem + 1.45vw, u.rem(48));
+}
+
+h3 {
+  font-size: u.rem(24);
 }
 
 p {
