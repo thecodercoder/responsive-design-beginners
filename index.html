@@ -22,18 +22,48 @@
     <script src="/app/js/script.js"></script>
   </head>
   <body>
-    <header></header>
-    <main>
+    <a href="#main" class="visually-hidden">Skip to main content</a>
+    <header class="topnav">
+      <h2 class="visually-hidden">Header</h2>
+      <div class="wrapper topnav__wrapper">
+        <a href="/" class="topnav__homelink">
+          <img
+            src="/img/logo-mythos.svg"
+            alt="Mythos homepage"
+            class="topnav__logo"
+            width="128"
+            height="36"
+          />
+        </a>
+        <nav>
+          <ul class="topnav__links">
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Features</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Pricing</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
       <article>
         <section class="wrapper">
           <h1>Find that elusive unicorn.</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-            qui rem omnis sed quam corporis necessitatibus nesciunt iste
-            assumenda unde facilis ullam dolorum illo nemo ipsa eaque labore
-            obcaecati quis, quibusdam eveniet saepe hic? Natus nemo perspiciatis
-            quia consequatur magni aperiam impedit tempora voluptatum!
-            Consequuntur earum maiores cumque praesentium minima.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            <span
+              >Adipisci qui rem omnis sed quam corporis necessitatibus nesciunt
+              iste assumenda unde facilis ullam dolorum illo nemo ipsa eaque
+              labore</span
+            >
+            <span>obcaecati quis, quibusdam eveniet</span> saepe hic? Natus nemo
+            perspiciatis quia consequatur magni aperiam impedit tempora
+            voluptatum! Consequuntur earum maiores cumque praesentium minima.
           </p>
         </section>
         <section class="wrapper">
