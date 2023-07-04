@@ -5,10 +5,13 @@
   --header-bg: hsla(232, 58%, 55%, 1);
   --hero-bg: hsla(232, 58%, 55%, 1);
   --button-primary-bg: hsla(180, 100%, 42%, 1);
-  --button-primary-text: hsla(0, 0%, 100%, 1);
+  --button-primary-bg-hover: hsla(180, 100%, 37%, 1);
+  --button-primary-text: hsla(233, 14%, 25%, 1);
   --button-secondary-bg: transparent;
+  --button-secondary-bg-hover: hsla(0, 0%, 100%, 1);
   --button-secondary-border: hsla(0, 0%, 100%, 1);
   --button-secondary-text: hsla(0, 0%, 100%, 1);
+  --button-secondary-text-hover: var(--hero-bg);
   --button-cta-bg: hsla(0, 0%, 100%, 1);
   --button-cta-text: hsla(0, 0%, 100%, 1);
   --fullwidth-bg: hsla(320, 85%, 41%, 1);

@@ -20,6 +20,12 @@ body {
   margin-block-end: 50vh; // temporary, remove after website is complete
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .visually-hidden {
   position: absolute;
   left: -10000px;
